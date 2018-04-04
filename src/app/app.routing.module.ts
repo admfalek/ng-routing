@@ -21,7 +21,7 @@ const appRoutes: Routes = [
         component: CoursesComponent,
         children: [
             {
-                path: ':slug', // courses/1
+                path: ':slug', // courses/slug-content
                 component: CourseDetailComponent
             }
         ]
