@@ -1,0 +1,8 @@
+<h4>courses works!</h4>
+<ul>
+    <li *ngFor="let course of courses">
+        {{ course.title }}
+        <button class="btn" [routerLink]="[course.slug]">Show more</button>
+    </li>
+</ul>
+<router-outlet></router-outlet>
