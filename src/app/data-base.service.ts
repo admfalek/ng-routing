@@ -21,5 +21,5 @@ export class DataBaseService {
 }
 
 export class Course {
-    constructor(public id: string, public slug: string, public title: string, public content: string){}
+    constructor(public id: string, public slug: string, public title: string, public content: string) {}
 }
